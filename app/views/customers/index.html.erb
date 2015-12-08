@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Customer View</h1>
+
+<table>
+  <thead>
+  <tr>
+    <th>Doctor Name</th>
+    <th>Pet Name</th>
+    <th>Reason for visit</th>
+    <th>Date of visit</th>
+    <th colspan="3"></th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @customers.each do |customer| %>
+      <tr>
+        <td><%= customer.doctor.name %></td>
+        <td><%= customer.pet.name %></td>
+        <td><%= customer.reason_for_visit %></td>
+        <td><%= customer.date_of_visit %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>
+

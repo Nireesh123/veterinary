@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  doctor_id: 
+  pet_id: 
+  customer_name: MyString
+  appointment_reminder: false
+  reason_for_visit: MyText
+  date_of_visit: 2015-12-08 17:53:26
+
+two:
+  doctor_id: 
+  pet_id: 
+  customer_name: MyString
+  appointment_reminder: false
+  reason_for_visit: MyText
+  date_of_visit: 2015-12-08 17:53:26
